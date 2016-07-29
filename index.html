@@ -17,8 +17,2280 @@
         function init(){ 
             myMap = new ymaps.Map("map", {
                 center: [59.933,30.343],
-                zoom: 9
+                zoom: 12
             }); 
+
+	    var points = 
+[
+  {
+    'gym_id': 'abd9b9c2523e46a6a3718ba29adad7ca.16',
+    'longitude': 30.345382,
+    'latitude': 59.938545
+  },
+  {
+    'gym_id': '70328ce7aad842afb12f91a190741330.16',
+    'longitude': 30.333601,
+    'latitude': 59.94555
+  },
+  {
+    'gym_id': '88678a1516ce417c9fe41948ee062d4d.12',
+    'longitude': 30.328704,
+    'latitude': 59.940072
+  },
+  {
+    'gym_id': 'd94d88243f094d0a9c900dcd8f5bd5a8.16',
+    'longitude': 30.337615,
+    'latitude': 59.934367
+  },
+  {
+    'gym_id': '7c7438370c6a43768bc53ec004af4d41.16',
+    'longitude': 30.360387,
+    'latitude': 59.931422
+  },
+  {
+    'gym_id': '90df4402003d4ab0bd5a47fdb0dbee65.11',
+    'longitude': 30.347616,
+    'latitude': 59.932899
+  },
+  {
+    'gym_id': 'f92bb087fdb4445c9812471e5723f104.12',
+    'longitude': 30.324842,
+    'latitude': 59.934634
+  },
+  {
+    'gym_id': '9a56d263786a4f71a56aec20e31aa32a.12',
+    'longitude': 30.324878,
+    'latitude': 59.932154
+  },
+  {
+    'gym_id': '28f6b059072144a5928bae4fca9154b4.12',
+    'longitude': 30.315848,
+    'latitude': 59.939003
+  },
+  {
+    'gym_id': 'a0d7b47911a84f17ac1f4e7e247749c1.16',
+    'longitude': 30.314766,
+    'latitude': 59.949602
+  },
+  {
+    'gym_id': 'a91ec12be8294bee8b8c293408bbfc34.12',
+    'longitude': 30.306596,
+    'latitude': 59.942911
+  },
+  {
+    'gym_id': '64bd510ec54b48dcb6ccb350e04d83bd.16',
+    'longitude': 30.329402,
+    'latitude': 59.945716
+  },
+  {
+    'gym_id': '41abaa795a904cfc803c06e28766ccd9.16',
+    'longitude': 30.357853,
+    'latitude': 59.9338
+  },
+  {
+    'gym_id': '21696d7c296f471f95b4069bee7a47fa.16',
+    'longitude': 30.335685,
+    'latitude': 59.928529
+  },
+  {
+    'gym_id': '487b675cc5d94dfab4c5c45ca03f327f.16',
+    'longitude': 30.309328,
+    'latitude': 59.927076
+  },
+  {
+    'gym_id': '81350e3a9f064b66a881e8aa2c1c05e2.16',
+    'longitude': 30.336846,
+    'latitude': 59.924893
+  },
+  {
+    'gym_id': 'd344fa751ec44f8ab1a3b76db070082a.16',
+    'longitude': 30.340038,
+    'latitude': 59.922161
+  },
+  {
+    'gym_id': 'f3c48f65eb29409c8036f6791e06dbab.16',
+    'longitude': 30.342557,
+    'latitude': 59.926357
+  },
+  {
+    'gym_id': '0bac4fd0080d4f5cae552e3592bd39b2.16',
+    'longitude': 30.321139,
+    'latitude': 59.928984
+  },
+  {
+    'gym_id': '5df01f3bcbce48a189b457282e8ab2bd.12',
+    'longitude': 30.302081,
+    'latitude': 59.936459
+  },
+  {
+    'gym_id': '143338edad7a4b02b46dd9d5864b2450.16',
+    'longitude': 30.349083,
+    'latitude': 59.951582
+  },
+  {
+    'gym_id': '406771151dcd426593568366b9e24baa.16',
+    'longitude': 30.342122,
+    'latitude': 59.956175
+  },
+  {
+    'gym_id': 'f5cff6595a474f5fbe2589d044c84ed3.16',
+    'longitude': 30.339397,
+    'latitude': 59.946965
+  },
+  {
+    'gym_id': '758735aa26e04f228c682307f3afe1d0.16',
+    'longitude': 30.349915,
+    'latitude': 59.936413
+  },
+  {
+    'gym_id': '6cc47cd2f358498194375a2a0537fa7c.16',
+    'longitude': 30.348945,
+    'latitude': 59.946648
+  },
+  {
+    'gym_id': '4b24b93332fb4229b4e650d3e4228c34.16',
+    'longitude': 30.348837,
+    'latitude': 59.950489
+  },
+  {
+    'gym_id': 'd0131c8df2474eacbe36e9021a1667d7.16',
+    'longitude': 30.350295,
+    'latitude': 59.919454
+  },
+  {
+    'gym_id': '20d34144c57d4e8a80afd83a6ece79a3.16',
+    'longitude': 30.361986,
+    'latitude': 59.924128
+  },
+  {
+    'gym_id': 'fec1535eb93a4cdf89e7b1c2ec5f1844.12',
+    'longitude': 30.30842,
+    'latitude': 59.932052
+  },
+  {
+    'gym_id': 'c03eaff1dd024f07b93ef51273e83442.12',
+    'longitude': 30.306559,
+    'latitude': 59.933721
+  },
+  {
+    'gym_id': '92081870e6554f1d95dcb7d38c686d60.16',
+    'longitude': 30.360414,
+    'latitude': 59.943499
+  },
+  {
+    'gym_id': '98cb6d54e58041e39a0cc5515a92aed5.16',
+    'longitude': 30.368482,
+    'latitude': 59.948658
+  },
+  {
+    'gym_id': '68b2c641202e40babd11e5bc2be0ca9d.16',
+    'longitude': 30.376354,
+    'latitude': 59.943375
+  },
+  {
+    'gym_id': 'f3a5901d4c3d4407ae7fdeb9d748a406.16',
+    'longitude': 30.371601,
+    'latitude': 59.942674
+  },
+  {
+    'gym_id': '1a40716ce963481c8b7f7695231a0cc3.16',
+    'longitude': 30.368773,
+    'latitude': 59.926133
+  },
+  {
+    'gym_id': '2b54d441371e43f6aa803f31f09ad3e7.16',
+    'longitude': 30.359664,
+    'latitude': 59.920308
+  },
+  {
+    'gym_id': 'b1d306c238ac40b4ab21f555e3bb9d0d.16',
+    'longitude': 30.362012,
+    'latitude': 59.918074
+  },
+  {
+    'gym_id': 'e6faddfecfe2423aaabf73bb826c82d0.11',
+    'longitude': 30.305467,
+    'latitude': 59.921894
+  },
+  {
+    'gym_id': '01e630dae9034f849ee3b99625ac4505.11',
+    'longitude': 30.313192,
+    'latitude': 59.919516
+  },
+  {
+    'gym_id': '9aea8144b5f747588dfe2ba775e7f4da.16',
+    'longitude': 30.299519,
+    'latitude': 59.920985
+  },
+  {
+    'gym_id': '83a01500d655480da43113616a38ec82.16',
+    'longitude': 30.28335,
+    'latitude': 59.915823
+  },
+  {
+    'gym_id': '519870b1d3dc4be1a99f2b6f04ef0d0c.16',
+    'longitude': 30.282524,
+    'latitude': 59.922084
+  },
+  {
+    'gym_id': 'cab3834087194fb7b9f215de9a842a0b.16',
+    'longitude': 30.262581,
+    'latitude': 59.912915
+  },
+  {
+    'gym_id': '0920e8883a714687a7f6ca1f73b43f85.11',
+    'longitude': 30.277222,
+    'latitude': 59.918055
+  },
+  {
+    'gym_id': '713611fc07f34d709cb7fb0ef19718bc.16',
+    'longitude': 30.277793,
+    'latitude': 59.912587
+  },
+  {
+    'gym_id': '4eab348603ff4f539790a4c3330f6729.16',
+    'longitude': 30.296594,
+    'latitude': 59.925833
+  },
+  {
+    'gym_id': '40dc186d00cb4c4b92228d20cfa3099f.16',
+    'longitude': 30.291252,
+    'latitude': 59.924584
+  },
+  {
+    'gym_id': 'aab1657103fd44f5af4b1fd8ba6947e7.16',
+    'longitude': 30.303855,
+    'latitude': 59.948826
+  },
+  {
+    'gym_id': 'eeb17f0af915458f94e2e77b61292bf2.16',
+    'longitude': 30.294232,
+    'latitude': 59.94394
+  },
+  {
+    'gym_id': 'e99d367b78934acba52e8e0daba243d0.16',
+    'longitude': 30.290661,
+    'latitude': 59.953573
+  },
+  {
+    'gym_id': '76f57eb5474c49bb82346dde43874dfa.16',
+    'longitude': 30.288094,
+    'latitude': 59.950445
+  },
+  {
+    'gym_id': '2021db50255d4789aec690118c99dc12.16',
+    'longitude': 30.295254,
+    'latitude': 59.965662
+  },
+  {
+    'gym_id': '5e5fc07c89474c71af41012fd02b03a5.16',
+    'longitude': 30.284926,
+    'latitude': 59.967981
+  },
+  {
+    'gym_id': '595e4ff21c4a49fbbcca83efc01bac01.11',
+    'longitude': 30.291904,
+    'latitude': 59.961149
+  },
+  {
+    'gym_id': 'd38577cea8e5423d973556a8f988ca32.16',
+    'longitude': 30.28089,
+    'latitude': 59.961454
+  },
+  {
+    'gym_id': '89bfd43e79004ebaad30f89dfe4061a8.11',
+    'longitude': 30.31115,
+    'latitude': 59.95986
+  },
+  {
+    'gym_id': '5c926fb3b51a47d0a344c10ad72ec94b.11',
+    'longitude': 30.304771,
+    'latitude': 59.9618
+  },
+  {
+    'gym_id': 'f0ce8b4fc9664f9bb2ee22e4cfde183c.11',
+    'longitude': 30.309988,
+    'latitude': 59.956363
+  },
+  {
+    'gym_id': '69679d19496b484681caae55b393410a.11',
+    'longitude': 30.298759,
+    'latitude': 59.958286
+  },
+  {
+    'gym_id': '4df8c99a3a594f7a9dd1f1a628435cac.16',
+    'longitude': 30.323605,
+    'latitude': 59.955108
+  },
+  {
+    'gym_id': '97deaa352c01422c82a440caaff4a1ef.16',
+    'longitude': 30.319653,
+    'latitude': 59.950806
+  },
+  {
+    'gym_id': '9a1c043a2052448faafdeb8889f01253.16',
+    'longitude': 30.32819,
+    'latitude': 59.951686
+  },
+  {
+    'gym_id': '3cea106b01bb4f9c883a33769c18bd5e.12',
+    'longitude': 30.341806,
+    'latitude': 59.96823
+  },
+  {
+    'gym_id': 'ad6cb863bab34e32a9d21acac00159db.16',
+    'longitude': 30.34019,
+    'latitude': 59.958318
+  },
+  {
+    'gym_id': 'b07d566188e841b8a1e833cffb0453b1.16',
+    'longitude': 30.330847,
+    'latitude': 59.966603
+  },
+  {
+    'gym_id': 'ea54716a0efb43698a198f770c9ca418.16',
+    'longitude': 30.350954,
+    'latitude': 59.965792
+  },
+  {
+    'gym_id': '081dca6d21e44dadaf3bda96e041042f.16',
+    'longitude': 30.335003,
+    'latitude': 59.960746
+  },
+  {
+    'gym_id': 'a555f04f91214be5af6ceced01b5e6fc.16',
+    'longitude': 30.370033,
+    'latitude': 59.965586
+  },
+  {
+    'gym_id': '78141ee546cb4b66916bc506bfd4c66e.11',
+    'longitude': 30.384712,
+    'latitude': 59.971015
+  },
+  {
+    'gym_id': '805ca085b1f44673b96ef0966b2e05a4.16',
+    'longitude': 30.370357,
+    'latitude': 59.966549
+  },
+  {
+    'gym_id': '4acee31821d7493cb8bec83a73b9a53a.16',
+    'longitude': 30.354247,
+    'latitude': 59.956626
+  },
+  {
+    'gym_id': 'f6f2af1d2cba4236952eb0dd565cd115.11',
+    'longitude': 30.356374,
+    'latitude': 59.955453
+  },
+  {
+    'gym_id': '6fd860eb623242cc8de765096a63ad7f.16',
+    'longitude': 30.355645,
+    'latitude': 59.96262
+  },
+  {
+    'gym_id': '2664b4181ca945269c49b30eb34bedb3.16',
+    'longitude': 30.374114,
+    'latitude': 59.954527
+  },
+  {
+    'gym_id': '2ec16a90716445c9973c52078feda09a.16',
+    'longitude': 30.37085,
+    'latitude': 59.955835
+  },
+  {
+    'gym_id': '9cfe5296e5244303b3433f05c26ec4d2.16',
+    'longitude': 30.406556,
+    'latitude': 59.951098
+  },
+  {
+    'gym_id': '92634d508aa54b5aaf2436c198d3aab8.12',
+    'longitude': 30.382174,
+    'latitude': 59.948977
+  },
+  {
+    'gym_id': 'd7c4f5dfbc8543adbb46708e002cc0a1.16',
+    'longitude': 30.396385,
+    'latitude': 59.950789
+  },
+  {
+    'gym_id': '28038f139e154a62b08130ac1e1056b9.11',
+    'longitude': 30.398151,
+    'latitude': 59.942892
+  },
+  {
+    'gym_id': '65b9975de10d46659413e45cb67e4d39.16',
+    'longitude': 30.396759,
+    'latitude': 59.940786
+  },
+  {
+    'gym_id': '467bbcd216824e178e18e345c3dd803a.11',
+    'longitude': 30.375283,
+    'latitude': 59.938057
+  },
+  {
+    'gym_id': '2cfbcdc66f084d89a5dfdcd0eb23aa7e.16',
+    'longitude': 30.389425,
+    'latitude': 59.944088
+  },
+  {
+    'gym_id': 'ac3c8092b4a540958a2c04d7fee8b491.12',
+    'longitude': 30.39417,
+    'latitude': 59.948821
+  },
+  {
+    'gym_id': '32207059c44c4a14bfe0cefdc1796978.16',
+    'longitude': 30.385536,
+    'latitude': 59.938129
+  },
+  {
+    'gym_id': '87ac37363f5c4ed3b4061348986a810b.16',
+    'longitude': 30.413834,
+    'latitude': 59.940112
+  },
+  {
+    'gym_id': 'e4dfdd6a390849e98e622eef7c27eeb7.16',
+    'longitude': 30.403593,
+    'latitude': 59.935933
+  },
+  {
+    'gym_id': '198583ccb63a432298cd0a1528838d63.16',
+    'longitude': 30.417758,
+    'latitude': 59.931013
+  },
+  {
+    'gym_id': '495fef4316474f5c95a552aef88ea6f5.16',
+    'longitude': 30.406723,
+    'latitude': 59.933381
+  },
+  {
+    'gym_id': '0f199c259143481e91b9911200dabf61.16',
+    'longitude': 30.416222,
+    'latitude': 59.935078
+  },
+  {
+    'gym_id': '735133032de54597bd50cef86f485d83.16',
+    'longitude': 30.412956,
+    'latitude': 59.92868
+  },
+  {
+    'gym_id': 'c9a2b2fae04c49dc8bd2a696330d47c5.16',
+    'longitude': 30.401698,
+    'latitude': 59.934024
+  },
+  {
+    'gym_id': '58cbab2a6dd245bfbed0cbf256daf453.16',
+    'longitude': 30.363577,
+    'latitude': 59.93153
+  },
+  {
+    'gym_id': '1d8c73a163ba4b5da12bacb399ce19b1.11',
+    'longitude': 30.379482,
+    'latitude': 59.9328
+  },
+  {
+    'gym_id': '9eeea65621c341e1a51f54353613aa38.16',
+    'longitude': 30.37294,
+    'latitude': 59.933314
+  },
+  {
+    'gym_id': '2b698d59286b48978add227e3686c8d1.16',
+    'longitude': 30.389395,
+    'latitude': 59.925453
+  },
+  {
+    'gym_id': '974a3e7eb84d46f0b0f13dcbd7295ca8.12',
+    'longitude': 30.400131,
+    'latitude': 59.927721
+  },
+  {
+    'gym_id': '86d75bfae18045fca47cb28e399e42dd.11',
+    'longitude': 30.387643,
+    'latitude': 59.922328
+  },
+  {
+    'gym_id': 'ee15903c923c4277afd7e8d3234c18e1.16',
+    'longitude': 30.38808,
+    'latitude': 59.923557
+  },
+  {
+    'gym_id': 'cd8be60460c54a4ca589b421219528a8.16',
+    'longitude': 30.378078,
+    'latitude': 59.918042
+  },
+  {
+    'gym_id': 'f9f85f78df9042d8bed7880f93586146.16',
+    'longitude': 30.395524,
+    'latitude': 59.916282
+  },
+  {
+    'gym_id': 'fceb4831fa834db9834cb6125bd9a578.16',
+    'longitude': 30.38048,
+    'latitude': 59.916633
+  },
+  {
+    'gym_id': 'fcd2302559624c11bb7b94dc3ed47462.16',
+    'longitude': 30.354619,
+    'latitude': 59.900923
+  },
+  {
+    'gym_id': '4a0bda2c79a84354b4fc48c74c201dd9.16',
+    'longitude': 30.374138,
+    'latitude': 59.905771
+  },
+  {
+    'gym_id': '38351912617f4152a8c7faffcc5e28d3.16',
+    'longitude': 30.358177,
+    'latitude': 59.904585
+  },
+  {
+    'gym_id': '940961e3c3664e4e9a83068f22b71dd8.16',
+    'longitude': 30.366338,
+    'latitude': 59.90257
+  },
+  {
+    'gym_id': '82738cad536147e29072b62c59ce4479.16',
+    'longitude': 30.337423,
+    'latitude': 59.917799
+  },
+  {
+    'gym_id': '336ac2c16e1245098ed2b003df372759.16',
+    'longitude': 30.342654,
+    'latitude': 59.911013
+  },
+  {
+    'gym_id': 'dfb06e776c2447a49fdf555885da334a.16',
+    'longitude': 30.326664,
+    'latitude': 59.913803
+  },
+  {
+    'gym_id': '8e1a0a7a5f714d148c55c3bef9bdfa9b.11',
+    'longitude': 30.348397,
+    'latitude': 59.910266
+  },
+  {
+    'gym_id': '2dc4271549f74cc0bcda2ba3709e1f9b.16',
+    'longitude': 30.349919,
+    'latitude': 59.915993
+  },
+  {
+    'gym_id': '5c0a6434ca3a4cd89e48aaf4bb394546.16',
+    'longitude': 30.341563,
+    'latitude': 59.903372
+  },
+  {
+    'gym_id': '813024b30e6e4c839850957078c84da4.16',
+    'longitude': 30.345397,
+    'latitude': 59.906943
+  },
+  {
+    'gym_id': '4bc476931ad64c0ca345940ab005ed22.12',
+    'longitude': 30.324401,
+    'latitude': 59.897849
+  },
+  {
+    'gym_id': '0222554b60a9418aa57d2281f63a8ff1.16',
+    'longitude': 30.329332,
+    'latitude': 59.903905
+  },
+  {
+    'gym_id': '2d5006adfc3848e6b6be2ba0d87ecde8.16',
+    'longitude': 30.302959,
+    'latitude': 59.905611
+  },
+  {
+    'gym_id': '734749ae5074409c9f518a6521491e97.11',
+    'longitude': 30.317823,
+    'latitude': 59.90088
+  },
+  {
+    'gym_id': '675fc5e39d7e45a4877f3bfc47206f8d.16',
+    'longitude': 30.318765,
+    'latitude': 59.909251
+  },
+  {
+    'gym_id': 'e60d07836cfe4b7f8a9ce81efd2b1d3f.11',
+    'longitude': 30.307337,
+    'latitude': 59.90824
+  },
+  {
+    'gym_id': '6570850d08c64cd3889cd21ce6ace16d.16',
+    'longitude': 30.317808,
+    'latitude': 59.91412
+  },
+  {
+    'gym_id': '3bf981d969bd44a68603a515bafa8b9c.16',
+    'longitude': 30.32861,
+    'latitude': 59.920105
+  },
+  {
+    'gym_id': '95375f5c7dcb4dab8040e1f042744e45.16',
+    'longitude': 30.29507,
+    'latitude': 59.912602
+  },
+  {
+    'gym_id': 'ab4dfc5ad83149e093eadfa46937d651.11',
+    'longitude': 30.299671,
+    'latitude': 59.907386
+  },
+  {
+    'gym_id': '7fd765fb3cff4563abae676d6faf2f2d.11',
+    'longitude': 30.30655,
+    'latitude': 59.916467
+  },
+  {
+    'gym_id': '20c2c3ccc09247ee954c24f39680ca27.11',
+    'longitude': 30.288194,
+    'latitude': 59.90962
+  },
+  {
+    'gym_id': '7a5fd7e9b57e4c068d62ddd35c8c2071.11',
+    'longitude': 30.298143,
+    'latitude': 59.910512
+  },
+  {
+    'gym_id': 'ffce3c0fab5a42e5a262c01c40fee2bc.16',
+    'longitude': 30.23254,
+    'latitude': 59.94672
+  },
+  {
+    'gym_id': 'ca60b5a686e54056b3dc693d18e34e41.16',
+    'longitude': 30.239569,
+    'latitude': 59.938166
+  },
+  {
+    'gym_id': '967cba722c164821b89b44bbdee0056c.16',
+    'longitude': 30.230031,
+    'latitude': 59.943214
+  },
+  {
+    'gym_id': '22d937c0b1e546d2ace17ba8fdacc3dd.16',
+    'longitude': 30.247664,
+    'latitude': 59.947224
+  },
+  {
+    'gym_id': '6a66f435bbb64ff395962623c8980020.16',
+    'longitude': 30.254611,
+    'latitude': 59.947152
+  },
+  {
+    'gym_id': '99e833bc545147ac80f43beda3a69648.16',
+    'longitude': 30.236375,
+    'latitude': 59.952976
+  },
+  {
+    'gym_id': 'ed4af162e1b1462ba352159652731c11.16',
+    'longitude': 30.227781,
+    'latitude': 59.949512
+  },
+  {
+    'gym_id': 'f4741c6b8e0140c1b9618f8f5cd986f6.16',
+    'longitude': 30.245566,
+    'latitude': 59.95139
+  },
+  {
+    'gym_id': 'a19f9b578917423ab5fa02f58a3c1c85.16',
+    'longitude': 30.225275,
+    'latitude': 59.936834
+  },
+  {
+    'gym_id': '212f7bca6d5642e69bb1577139edc125.16',
+    'longitude': 30.234061,
+    'latitude': 59.933157
+  },
+  {
+    'gym_id': '02d78ce0cf6a4e6fbe328fd762681386.16',
+    'longitude': 30.211007,
+    'latitude': 59.937982
+  },
+  {
+    'gym_id': '8193261307c44e2eb9ece52571fb4400.16',
+    'longitude': 30.222935,
+    'latitude': 59.943592
+  },
+  {
+    'gym_id': '07df893c6a9f46aeb49457f235006ffa.11',
+    'longitude': 30.217498,
+    'latitude': 59.939615
+  },
+  {
+    'gym_id': 'a2dd742acd4c49adb2b9bc1a4ba11cbb.16',
+    'longitude': 30.213727,
+    'latitude': 59.945817
+  },
+  {
+    'gym_id': '05f16169a4ae4134a47eb3bd02233897.16',
+    'longitude': 30.207566,
+    'latitude': 59.945012
+  },
+  {
+    'gym_id': 'd565fb7c9f7b4c93b40718920afc41e7.16',
+    'longitude': 30.212791,
+    'latitude': 59.955666
+  },
+  {
+    'gym_id': 'b7ac5ff40f8e449ca9f5e7be5eb8b38a.16',
+    'longitude': 30.223979,
+    'latitude': 59.953728
+  },
+  {
+    'gym_id': '06d9ca9ec7d244cfa124f0e24e6d8c4d.16',
+    'longitude': 30.228322,
+    'latitude': 59.959475
+  },
+  {
+    'gym_id': '855bbd1b7970491ab7b30403041b3f3f.16',
+    'longitude': 30.222237,
+    'latitude': 59.972649
+  },
+  {
+    'gym_id': 'd8ae266d212144a68810870bbb21e96f.12',
+    'longitude': 30.225081,
+    'latitude': 59.969135
+  },
+  {
+    'gym_id': 'c8416e096c9f43c48f47f93ca96ea0f3.16',
+    'longitude': 30.240867,
+    'latitude': 59.963916
+  },
+  {
+    'gym_id': '43e2591635ed48109f3a890521373f3b.16',
+    'longitude': 30.271929,
+    'latitude': 59.961468
+  },
+  {
+    'gym_id': '4e0a210150044294840e2d16a3d528f3.16',
+    'longitude': 30.255519,
+    'latitude': 59.961571
+  },
+  {
+    'gym_id': 'da494223ad7e4de8aba60a3aba6d3237.16',
+    'longitude': 30.287401,
+    'latitude': 59.952755
+  },
+  {
+    'gym_id': 'a71b0658796d465d90ba3a3395af3e97.16',
+    'longitude': 30.278205,
+    'latitude': 59.957803
+  },
+  {
+    'gym_id': '0b0e958caf944d528df87a599917038e.11',
+    'longitude': 30.273494,
+    'latitude': 59.942451
+  },
+  {
+    'gym_id': '3a506ceaed6c443788a74cbecbb2c417.11',
+    'longitude': 30.268851,
+    'latitude': 59.948891
+  },
+  {
+    'gym_id': '2e3e2e38a54141a4a51fe05ac7d82aa3.16',
+    'longitude': 30.276353,
+    'latitude': 59.947732
+  },
+  {
+    'gym_id': '1a787aa1da874a398ffdf8af609b2580.16',
+    'longitude': 30.267527,
+    'latitude': 59.950559
+  },
+  {
+    'gym_id': '036f59b180a8473baba5b91083f6a9e0.16',
+    'longitude': 30.289398,
+    'latitude': 59.933025
+  },
+  {
+    'gym_id': '968c1a5fa2b64444bb2f41a662514e34.16',
+    'longitude': 30.288024,
+    'latitude': 59.936059
+  },
+  {
+    'gym_id': '8a77658ee68b4b88bb7031f2dcceb742.11',
+    'longitude': 30.257987,
+    'latitude': 59.943002
+  },
+  {
+    'gym_id': 'bdef44103fb8454a9cf87ea3d557d9e7.16',
+    'longitude': 30.283719,
+    'latitude': 59.939529
+  },
+  {
+    'gym_id': '019ff295e02149d290afc59b0e61f72a.16',
+    'longitude': 30.278508,
+    'latitude': 59.942705
+  },
+  {
+    'gym_id': '2e7be4b76d5047c393d6a2ab4092307e.16',
+    'longitude': 30.270985,
+    'latitude': 59.942059
+  },
+  {
+    'gym_id': 'dced082da5854c498d748d588aed99d6.16',
+    'longitude': 30.280565,
+    'latitude': 59.939448
+  },
+  {
+    'gym_id': '3acbcf81e51a42c69bfb15b0890be73a.16',
+    'longitude': 30.247854,
+    'latitude': 59.939276
+  },
+  {
+    'gym_id': 'a731de192fed44b38084a97af8976b6d.16',
+    'longitude': 30.266937,
+    'latitude': 59.932994
+  },
+  {
+    'gym_id': '29122dbec8594bb4bcc954f887fcaa84.16',
+    'longitude': 30.275541,
+    'latitude': 59.933405
+  },
+  {
+    'gym_id': '9e586c4f7fdc4c11958c571bae6aa4dc.11',
+    'longitude': 30.262427,
+    'latitude': 59.938278
+  },
+  {
+    'gym_id': 'b1955ed0f59b4eb2b52743d628e62201.16',
+    'longitude': 30.288624,
+    'latitude': 59.931687
+  },
+  {
+    'gym_id': 'a7f6281b484f437d96820908e8fe2a19.16',
+    'longitude': 30.269737,
+    'latitude': 59.929177
+  },
+  {
+    'gym_id': '48d9089e98bf471cb54bbafc38aefe97.16',
+    'longitude': 30.265354,
+    'latitude': 59.930943
+  },
+  {
+    'gym_id': '8ac93cf3a0fe4bfe84f3da232ca5d9f0.16',
+    'longitude': 30.251876,
+    'latitude': 59.932213
+  },
+  {
+    'gym_id': '43da8329d6d34bec98b6b4a58047872b.16',
+    'longitude': 30.246427,
+    'latitude': 59.93413
+  },
+  {
+    'gym_id': '83ce590b48a449b6a007e325abb14ed5.16',
+    'longitude': 30.252965,
+    'latitude': 59.924039
+  },
+  {
+    'gym_id': 'd779a7ff961d4219a61d80026a7d22a2.16',
+    'longitude': 30.242631,
+    'latitude': 59.927741
+  },
+  {
+    'gym_id': 'c82a5bd3861c4a34b0e7ab7e8dbe98b2.16',
+    'longitude': 30.235066,
+    'latitude': 59.92646
+  },
+  {
+    'gym_id': 'f79c7af2590c4e309675184021d2f653.16',
+    'longitude': 30.232306,
+    'latitude': 59.930719
+  },
+  {
+    'gym_id': '5139302022ee43429e6876523375060f.16',
+    'longitude': 30.147773,
+    'latitude': 59.994278
+  },
+  {
+    'gym_id': 'fd87edda22cf4ef994bec2c55648b5ad.16',
+    'longitude': 30.131619,
+    'latitude': 59.99653
+  },
+  {
+    'gym_id': '6be57f17a84940559f0627414ed30b54.16',
+    'longitude': 30.166236,
+    'latitude': 59.986244
+  },
+  {
+    'gym_id': '42c8e92cf3c74ee382e332ab1043e4dc.16',
+    'longitude': 30.212603,
+    'latitude': 59.999572
+  },
+  {
+    'gym_id': 'faaf0d37a3054d77bfb7dfb7781b12f4.16',
+    'longitude': 30.204812,
+    'latitude': 59.994531
+  },
+  {
+    'gym_id': 'a0e3703f9fd54476b4c294eff5721ad1.16',
+    'longitude': 30.237461,
+    'latitude': 59.998751
+  },
+  {
+    'gym_id': '59bc1fe2c67e4e50824ef3e13ea71518.16',
+    'longitude': 30.222459,
+    'latitude': 59.999984
+  },
+  {
+    'gym_id': '2f2677898428476c8fdb72b373d00582.16',
+    'longitude': 30.200022,
+    'latitude': 60.008516
+  },
+  {
+    'gym_id': 'f0f72c39d37941eab0ce99f017a55df0.16',
+    'longitude': 30.217765,
+    'latitude': 60.005491
+  },
+  {
+    'gym_id': '5ba44af101c84b4d8e09ca78a6ac5d44.16',
+    'longitude': 30.222369,
+    'latitude': 60.006842
+  },
+  {
+    'gym_id': '0759a1e55f0440f18ccc1a1d490f0165.16',
+    'longitude': 30.216089,
+    'latitude': 60.009568
+  },
+  {
+    'gym_id': 'e167698cf5e64f35b5d6e719f2d0d6d7.11',
+    'longitude': 30.252895,
+    'latitude': 59.985123
+  },
+  {
+    'gym_id': '75bbebd369514791a7756e598b9d0a3b.12',
+    'longitude': 30.236685,
+    'latitude': 59.979952
+  },
+  {
+    'gym_id': 'cc56775ea9d543a689f372c6ebcc572b.12',
+    'longitude': 30.23818,
+    'latitude': 59.975193
+  },
+  {
+    'gym_id': '8c804b44c6944ca1967ba1e6c3e28b18.16',
+    'longitude': 30.220841,
+    'latitude': 59.991803
+  },
+  {
+    'gym_id': '23f435ea67bd4136a88ac09d10ba0ca2.16',
+    'longitude': 30.212263,
+    'latitude': 59.985235
+  },
+  {
+    'gym_id': '5cda6a45f3ac4c698a13e388ee0fe597.16',
+    'longitude': 30.217111,
+    'latitude': 59.98328
+  },
+  {
+    'gym_id': 'c070d4fb08a540ec82d28b98704a4142.12',
+    'longitude': 30.200782,
+    'latitude': 59.981531
+  },
+  {
+    'gym_id': 'a639777bc6dc40bfbe55813a98602c3b.16',
+    'longitude': 30.211959,
+    'latitude': 59.981819
+  },
+  {
+    'gym_id': 'b7da72a01f8e46ce9e7627cf52b7cfac.16',
+    'longitude': 30.203102,
+    'latitude': 59.985712
+  },
+  {
+    'gym_id': '28dce346ff1a44e7b784c920530d48b5.16',
+    'longitude': 30.200887,
+    'latitude': 59.983698
+  },
+  {
+    'gym_id': '7039de7454c1474ba802d5b8ee32a5e7.16',
+    'longitude': 30.167088,
+    'latitude': 59.988445
+  },
+  {
+    'gym_id': 'bb433e77301040baaf9d5e98f42c4f20.16',
+    'longitude': 30.195071,
+    'latitude': 59.996439
+  },
+  {
+    'gym_id': '82fda2f4755c4fce992ff10e004a9e89.16',
+    'longitude': 30.20211,
+    'latitude': 59.998412
+  },
+  {
+    'gym_id': '709f25c8d21d49d880d836f576cf8086.16',
+    'longitude': 30.197476,
+    'latitude': 60.005374
+  },
+  {
+    'gym_id': '84caad3110a9420cbd40f5fb78d661a6.16',
+    'longitude': 30.259644,
+    'latitude': 59.966572
+  },
+  {
+    'gym_id': '4ca05a02861541fc912c4ffd406ac06f.16',
+    'longitude': 30.27367,
+    'latitude': 59.965621
+  },
+  {
+    'gym_id': '69dbf204eac843e891462b0614218ba0.16',
+    'longitude': 30.225959,
+    'latitude': 59.96067
+  },
+  {
+    'gym_id': 'aa42decf929a43fcae2a0c8b6e8acdb2.16',
+    'longitude': 30.25565,
+    'latitude': 59.973217
+  },
+  {
+    'gym_id': '357cc095ff5245d19c3d8e155b90f9ff.16',
+    'longitude': 30.2556,
+    'latitude': 59.977997
+  },
+  {
+    'gym_id': 'f73a089af7ba456abb4ac1f66ba11fa0.16',
+    'longitude': 30.247645,
+    'latitude': 59.973521
+  },
+  {
+    'gym_id': '580617485680444f82ae2324fa8b6b32.16',
+    'longitude': 30.252675,
+    'latitude': 59.972558
+  },
+  {
+    'gym_id': 'e8ed1ee38bda465aa45c57e8fc675354.16',
+    'longitude': 30.279409,
+    'latitude': 59.970311
+  },
+  {
+    'gym_id': 'e7016a7ac794407ab957bf2f95d58069.16',
+    'longitude': 30.269637,
+    'latitude': 59.972888
+  },
+  {
+    'gym_id': 'dbf1bbee3b2e4b64bf85dd69842ca5d0.12',
+    'longitude': 30.330138,
+    'latitude': 59.994895
+  },
+  {
+    'gym_id': '7f5577ff694642f98e531dd9223d8cfc.16',
+    'longitude': 30.331012,
+    'latitude': 59.988467
+  },
+  {
+    'gym_id': '6623b819b5fb49c093ceafce3536439e.12',
+    'longitude': 30.338021,
+    'latitude': 59.993443
+  },
+  {
+    'gym_id': 'b8618d73fbde45c3b3c993196e177417.16',
+    'longitude': 30.327886,
+    'latitude': 59.998765
+  },
+  {
+    'gym_id': '523fea5c6a304061bdb812eb06108ca0.16',
+    'longitude': 30.313916,
+    'latitude': 59.989705
+  },
+  {
+    'gym_id': '8fd8efd38ebe4d36900a1840e1f06c0c.16',
+    'longitude': 30.34655,
+    'latitude': 59.999292
+  },
+  {
+    'gym_id': 'b81db33e8ba54798bf37be167d813f97.16',
+    'longitude': 30.348164,
+    'latitude': 60.00389
+  },
+  {
+    'gym_id': 'fcab2c22aea1429186b777e1c6fb6026.16',
+    'longitude': 30.355908,
+    'latitude': 59.998231
+  },
+  {
+    'gym_id': '7e645046cfbd482b8dc57ccfd16be76b.16',
+    'longitude': 30.335722,
+    'latitude': 59.984212
+  },
+  {
+    'gym_id': 'a36ec44b700e47dd887a6680278ec6c8.16',
+    'longitude': 30.34594,
+    'latitude': 59.991208
+  },
+  {
+    'gym_id': '79a86e91ae17415b9965ed60ab306e4d.16',
+    'longitude': 30.353334,
+    'latitude': 59.990762
+  },
+  {
+    'gym_id': '150d2eb2d1544702b3c8148aca3dee56.11',
+    'longitude': 30.344078,
+    'latitude': 59.984854
+  },
+  {
+    'gym_id': 'bdab569f33e24dd38aecfb7ae08d6f61.16',
+    'longitude': 30.319208,
+    'latitude': 59.982462
+  },
+  {
+    'gym_id': '837e70908eb8433e81838db810844ee8.16',
+    'longitude': 30.30842,
+    'latitude': 59.985234
+  },
+  {
+    'gym_id': 'b18d12f4f41d4c30901848b62bcd5882.11',
+    'longitude': 30.320081,
+    'latitude': 59.980858
+  },
+  {
+    'gym_id': 'c26b5123c0ab472e901e0df9117d6a8d.16',
+    'longitude': 30.339576,
+    'latitude': 60.002066
+  },
+  {
+    'gym_id': '1467fdfae2544327bbfe6b292bc21aa9.16',
+    'longitude': 30.349018,
+    'latitude': 59.969216
+  },
+  {
+    'gym_id': '099ae1db42cb4bc1975c944f2156890d.16',
+    'longitude': 30.354792,
+    'latitude': 59.978429
+  },
+  {
+    'gym_id': 'a310a47496f6412089e645eebace1944.16',
+    'longitude': 30.338564,
+    'latitude': 59.977141
+  },
+  {
+    'gym_id': '3ced7a8ee0bc4189bc17c9fe8eec321a.16',
+    'longitude': 30.338946,
+    'latitude': 59.974957
+  },
+  {
+    'gym_id': '842622faddd447db91972b39e3ee2f01.16',
+    'longitude': 30.331215,
+    'latitude': 59.983979
+  },
+  {
+    'gym_id': 'd600afd729574193aecdf3f94469075b.16',
+    'longitude': 30.321994,
+    'latitude': 59.976665
+  },
+  {
+    'gym_id': '8f89cfd06ede4feca68d8776b93ba5f8.16',
+    'longitude': 30.346563,
+    'latitude': 59.972401
+  },
+  {
+    'gym_id': 'b44498ced14f42c686f2c98216b2912c.16',
+    'longitude': 30.31537,
+    'latitude': 59.968107
+  },
+  {
+    'gym_id': '0611b61e542b4ddba4284381526d0a35.16',
+    'longitude': 30.320591,
+    'latitude': 59.964028
+  },
+  {
+    'gym_id': 'c2f2cc34db244082856f05338081cca2.11',
+    'longitude': 30.319882,
+    'latitude': 59.97107
+  },
+  {
+    'gym_id': '1d7d5a00195747b7a299b237e6d66a43.11',
+    'longitude': 30.300672,
+    'latitude': 59.97046
+  },
+  {
+    'gym_id': '6cba5fff3087408aa60c86db14df5f84.16',
+    'longitude': 30.294475,
+    'latitude': 59.973843
+  },
+  {
+    'gym_id': 'bd31da5330a84a3489faa12809876621.16',
+    'longitude': 30.310091,
+    'latitude': 59.977389
+  },
+  {
+    'gym_id': '462002f208444ee4af98083f701a7a4b.11',
+    'longitude': 30.298317,
+    'latitude': 59.97764
+  },
+  {
+    'gym_id': 'b821a34238b949ccbcde45683fa17e1c.16',
+    'longitude': 30.274873,
+    'latitude': 59.976743
+  },
+  {
+    'gym_id': 'd087e4a0124d4073bbefe59ef2fd70d9.16',
+    'longitude': 30.386991,
+    'latitude': 59.995407
+  },
+  {
+    'gym_id': 'f645e8177ffe46c9a65c287071a5f8ce.16',
+    'longitude': 30.380118,
+    'latitude': 59.994696
+  },
+  {
+    'gym_id': '7561d92a90eb4a64bd4b053f0c89c0d0.16',
+    'longitude': 30.29362,
+    'latitude': 60.018248
+  },
+  {
+    'gym_id': '80c0ba17c5a748e3bf075b68814032a2.16',
+    'longitude': 30.283984,
+    'latitude': 60.015597
+  },
+  {
+    'gym_id': 'ea37829096f043008ff7dfec086a11b9.16',
+    'longitude': 30.276785,
+    'latitude': 60.004085
+  },
+  {
+    'gym_id': '957227e30670494cbd408e803cd60f56.16',
+    'longitude': 30.281987,
+    'latitude': 60.008329
+  },
+  {
+    'gym_id': '0288bbcb00ce45549acdb2bf72954389.16',
+    'longitude': 30.237505,
+    'latitude': 60.000941
+  },
+  {
+    'gym_id': '136a2f364c114399ae9abf77572ce6e0.16',
+    'longitude': 30.237557,
+    'latitude': 60.006938
+  },
+  {
+    'gym_id': 'fdfeb18f02d240d593754a9676e8d1b7.16',
+    'longitude': 30.251825,
+    'latitude': 60.003854
+  },
+  {
+    'gym_id': '267222ec2d5844789975abaf014b8b16.16',
+    'longitude': 30.25425,
+    'latitude': 60.01292
+  },
+  {
+    'gym_id': 'cc4c92bf7d3741a6a703567fcd209a1f.16',
+    'longitude': 30.258201,
+    'latitude': 60.006696
+  },
+  {
+    'gym_id': '33c46291aabb49f083b08f510d6ddc20.16',
+    'longitude': 30.265325,
+    'latitude': 60.007498
+  },
+  {
+    'gym_id': 'e7df86d7f06747aca8dc555aec276ebb.16',
+    'longitude': 30.242956,
+    'latitude': 60.01013
+  },
+  {
+    'gym_id': 'bf25bbf6ecfa4f7093211554c9cae2bd.16',
+    'longitude': 30.254205,
+    'latitude': 60.015478
+  },
+  {
+    'gym_id': '9a9ee99f90cb42718d4608906b927e6b.16',
+    'longitude': 30.267599,
+    'latitude': 60.008164
+  },
+  {
+    'gym_id': 'd5195c4cace94460a0958d3cfd920a1d.16',
+    'longitude': 30.280722,
+    'latitude': 60.019228
+  },
+  {
+    'gym_id': '5d62fa86d67a4e988ced5226c6ce615e.16',
+    'longitude': 30.273226,
+    'latitude': 60.012647
+  },
+  {
+    'gym_id': '32b94f85c58e49f486c7109050246ba5.16',
+    'longitude': 30.298324,
+    'latitude': 60.023751
+  },
+  {
+    'gym_id': '5880a2d05b914b979b50846464b49e9d.16',
+    'longitude': 30.278239,
+    'latitude': 59.997125
+  },
+  {
+    'gym_id': '889d5ebdc0b646288ef0f5a64b0917d8.16',
+    'longitude': 30.289165,
+    'latitude': 59.986633
+  },
+  {
+    'gym_id': '8d7bcf81b2f940f78233dac44853f36c.11',
+    'longitude': 30.300735,
+    'latitude': 59.98586
+  },
+  {
+    'gym_id': '23d1cfe3115e474abd3f4719388a1ca1.16',
+    'longitude': 30.296719,
+    'latitude': 59.991701
+  },
+  {
+    'gym_id': 'e220d40f9e004b969cbd5dc2a5bf9262.16',
+    'longitude': 30.282401,
+    'latitude': 59.974548
+  },
+  {
+    'gym_id': '8f29f9f7bfc548b6b30ba99c42994a9d.16',
+    'longitude': 30.287658,
+    'latitude': 59.978061
+  },
+  {
+    'gym_id': 'b0e745a0b9074bf6ad6367c500ce9987.16',
+    'longitude': 30.282787,
+    'latitude': 59.983366
+  },
+  {
+    'gym_id': 'b210fdba97484a51a573227a8f168981.16',
+    'longitude': 30.268791,
+    'latitude': 59.976622
+  },
+  {
+    'gym_id': '8973de82075741a9b6d37d76e1fb0c5b.16',
+    'longitude': 30.273457,
+    'latitude': 59.980736
+  },
+  {
+    'gym_id': '8111d61d6fe7402fbe4f5398ecd1bf3b.16',
+    'longitude': 30.256036,
+    'latitude': 59.983357
+  },
+  {
+    'gym_id': '12f546fd86c841239d4f201e65b11f17.16',
+    'longitude': 30.262261,
+    'latitude': 59.989128
+  },
+  {
+    'gym_id': '70e89e02dfe84acab35ed31cb035ecd6.16',
+    'longitude': 30.244829,
+    'latitude': 59.990866
+  },
+  {
+    'gym_id': 'a1a4c9d295554508bd2c6bcdf1749212.16',
+    'longitude': 30.249681,
+    'latitude': 59.990534
+  },
+  {
+    'gym_id': '4a4c2c68b8eb46a689c0a56974c97845.16',
+    'longitude': 30.236964,
+    'latitude': 59.987237
+  },
+  {
+    'gym_id': '8d3ca96bec1e4111808613ef8c8a365c.16',
+    'longitude': 30.279685,
+    'latitude': 59.987492
+  },
+  {
+    'gym_id': '1d8e7197c13c4020bfd20e4a5ec3d5db.16',
+    'longitude': 30.271102,
+    'latitude': 59.98889
+  },
+  {
+    'gym_id': 'add9a54df6c341039a31527008b4e313.16',
+    'longitude': 30.256266,
+    'latitude': 60.000457
+  },
+  {
+    'gym_id': '2219e0ec997f47bb8cf492675d6a8113.16',
+    'longitude': 30.252875,
+    'latitude': 59.994281
+  },
+  {
+    'gym_id': '4bcf8f89bd3d4586a63944c123ed9e4a.16',
+    'longitude': 30.265696,
+    'latitude': 59.995275
+  },
+  {
+    'gym_id': 'bb4906ea5f7e4623ad7e6adbe7a35cdd.16',
+    'longitude': 30.259939,
+    'latitude': 59.990734
+  },
+  {
+    'gym_id': '4dda5667068f4ab99ba8075b49bfa3bd.16',
+    'longitude': 30.234027,
+    'latitude': 60.013429
+  },
+  {
+    'gym_id': '92d2753b68e446d9b9174926b05ee6ae.16',
+    'longitude': 30.242177,
+    'latitude': 60.015855
+  },
+  {
+    'gym_id': 'db87a50fcfc5442db16eaaed278a6089.16',
+    'longitude': 30.221072,
+    'latitude': 60.02388
+  },
+  {
+    'gym_id': '5f136edfc928411b87242a3af80bb17c.16',
+    'longitude': 30.229085,
+    'latitude': 60.02029
+  },
+  {
+    'gym_id': 'c1f0e70e02fa48bf91d0b81b42f97950.16',
+    'longitude': 30.233711,
+    'latitude': 60.055813
+  },
+  {
+    'gym_id': '79963d25ae25448cbeed04245a1a67b7.16',
+    'longitude': 30.244012,
+    'latitude': 60.034356
+  },
+  {
+    'gym_id': '2c594832fd96430f96dded81a99a650f.16',
+    'longitude': 30.285462,
+    'latitude': 60.057637
+  },
+  {
+    'gym_id': '9e42010b59374978999627c54d1e6e4b.16',
+    'longitude': 30.234013,
+    'latitude': 60.074247
+  },
+  {
+    'gym_id': '614ab12d4584436098a89de2fa3ff6f8.16',
+    'longitude': 30.212507,
+    'latitude': 60.074397
+  },
+  {
+    'gym_id': '185639db19a54079933eeabd9dce0281.16',
+    'longitude': 30.304215,
+    'latitude': 60.041444
+  },
+  {
+    'gym_id': '3340a6a8b5c1482aaff8cd103d42d8a1.11',
+    'longitude': 30.285307,
+    'latitude': 60.026115
+  },
+  {
+    'gym_id': '0e06751130094544926d2ee26147f740.16',
+    'longitude': 30.296381,
+    'latitude': 60.032151
+  },
+  {
+    'gym_id': '5815561231204b3585a243bc1e50413c.16',
+    'longitude': 30.27989,
+    'latitude': 60.034462
+  },
+  {
+    'gym_id': 'd0460154fe5c4275bcf0e721d1a9ea22.16',
+    'longitude': 30.283769,
+    'latitude': 60.035075
+  },
+  {
+    'gym_id': '5e69dd0f369d4856b553ebe8bafe4f45.16',
+    'longitude': 30.265334,
+    'latitude': 60.019493
+  },
+  {
+    'gym_id': '4fc0146f076846f3b67b09ac29199022.16',
+    'longitude': 30.265307,
+    'latitude': 60.022282
+  },
+  {
+    'gym_id': '51b77b2429b14c00802db1c1a6513fb7.16',
+    'longitude': 30.255345,
+    'latitude': 60.018099
+  },
+  {
+    'gym_id': 'db9af435e8144c02ae2e62a5d3a0cfe6.16',
+    'longitude': 30.254717,
+    'latitude': 60.028463
+  },
+  {
+    'gym_id': 'b8782bd9166d402aabd3c45c12cc168b.16',
+    'longitude': 30.248029,
+    'latitude': 60.019515
+  },
+  {
+    'gym_id': '366b652bd7d9420a9a702952c4f849b4.16',
+    'longitude': 30.229142,
+    'latitude': 60.029716
+  },
+  {
+    'gym_id': '3ee5b4ed87de4d469f4c2622e221de7b.16',
+    'longitude': 30.238857,
+    'latitude': 60.030559
+  },
+  {
+    'gym_id': 'ca5dd47b084c485aaebb6af452ce77bb.16',
+    'longitude': 30.23822,
+    'latitude': 60.02347
+  },
+  {
+    'gym_id': '6953d5b4dc6a479cb504b60222f35e40.16',
+    'longitude': 30.212686,
+    'latitude': 60.027034
+  },
+  {
+    'gym_id': '9900418e5cef42deb094f21ff4e1bb39.16',
+    'longitude': 30.191407,
+    'latitude': 60.039945
+  },
+  {
+    'gym_id': '480f9c3eb8bb41f2826f2efbedfd1b62.16',
+    'longitude': 30.210073,
+    'latitude': 60.07599
+  },
+  {
+    'gym_id': '1f770406ca1042459fa09ede621e085f.16',
+    'longitude': 30.211966,
+    'latitude': 60.098104
+  },
+  {
+    'gym_id': '347e2040f0654802b87a432cf8194567.16',
+    'longitude': 30.264604,
+    'latitude': 60.082432
+  },
+  {
+    'gym_id': 'b69b45194dd347cf8336cc691daea03e.16',
+    'longitude': 30.268729,
+    'latitude': 60.078398
+  },
+  {
+    'gym_id': '28a30b78e46945d1997e169c3dd909db.16',
+    'longitude': 30.331405,
+    'latitude': 60.068856
+  },
+  {
+    'gym_id': '871f53ffd04b405dbe0bc33c43dff62d.16',
+    'longitude': 30.329113,
+    'latitude': 60.069399
+  },
+  {
+    'gym_id': 'f193e37048da4813ade2fd228b4688d7.16',
+    'longitude': 30.337304,
+    'latitude': 60.073169
+  },
+  {
+    'gym_id': '2987b0b47b894560be5e6f45e61030f7.16',
+    'longitude': 30.311548,
+    'latitude': 60.061887
+  },
+  {
+    'gym_id': '54af524314b94b7a87115f5da054c7c1.16',
+    'longitude': 30.324124,
+    'latitude': 60.077959
+  },
+  {
+    'gym_id': 'ea5a6652da7a4280b8cc58f1ea938e54.16',
+    'longitude': 30.325527,
+    'latitude': 60.059551
+  },
+  {
+    'gym_id': '23c810c46d39440d8b9031640ecb7ee5.16',
+    'longitude': 30.295665,
+    'latitude': 60.075865
+  },
+  {
+    'gym_id': '7652ee390ac14b5aa66288a2f5b57f8f.16',
+    'longitude': 30.380512,
+    'latitude': 60.090531
+  },
+  {
+    'gym_id': 'd7ee53771f304fa994220bf77d95e64e.16',
+    'longitude': 30.313136,
+    'latitude': 60.057912
+  },
+  {
+    'gym_id': '1e5211f66d0744178223038777ba67e5.16',
+    'longitude': 30.310343,
+    'latitude': 60.054314
+  },
+  {
+    'gym_id': 'a6f4db2570a64952bce0cdf7b19abdd4.16',
+    'longitude': 30.297774,
+    'latitude': 60.04693
+  },
+  {
+    'gym_id': '84d53f29550643a4a259f9678f1226e2.16',
+    'longitude': 30.306578,
+    'latitude': 60.053583
+  },
+  {
+    'gym_id': 'efa9dfb87d8447179a83534dbbfb6bd0.16',
+    'longitude': 30.304979,
+    'latitude': 60.06618
+  },
+  {
+    'gym_id': '712bdb0242b244428527b70c9ead9880.16',
+    'longitude': 30.28472,
+    'latitude': 60.071945
+  },
+  {
+    'gym_id': 'fa8e75d47bbb4f80ba99396af6a94234.16',
+    'longitude': 30.302302,
+    'latitude': 60.078917
+  },
+  {
+    'gym_id': '11d3338555124273a8965b30789edada.16',
+    'longitude': 30.329068,
+    'latitude': 60.003512
+  },
+  {
+    'gym_id': '639e499196954e319dffc8e91333be2e.16',
+    'longitude': 30.328699,
+    'latitude': 60.006392
+  },
+  {
+    'gym_id': '220eaf1136bd46c49970d59543fa623b.16',
+    'longitude': 30.300423,
+    'latitude': 59.986715
+  },
+  {
+    'gym_id': 'a5771512feab444c8e21c8ca9ee9ce82.16',
+    'longitude': 30.310371,
+    'latitude': 59.993958
+  },
+  {
+    'gym_id': 'b6df4e33d0df4e98bf04754b24f67c5e.16',
+    'longitude': 30.312457,
+    'latitude': 60.001639
+  },
+  {
+    'gym_id': 'd3480d3ed62841acab05d7cfca018b1d.16',
+    'longitude': 30.280191,
+    'latitude': 60.002618
+  },
+  {
+    'gym_id': 'ecf692e67d4e405983fd60de2c42d332.11',
+    'longitude': 30.29733,
+    'latitude': 60.00272
+  },
+  {
+    'gym_id': 'cbaac79cecb54b8e973b52edf288c068.16',
+    'longitude': 30.301866,
+    'latitude': 59.995015
+  },
+  {
+    'gym_id': '95babe63effc48088b02c67ae1547cc0.16',
+    'longitude': 30.286022,
+    'latitude': 60.007192
+  },
+  {
+    'gym_id': '48119362b19547d2950f165d867846d9.11',
+    'longitude': 30.287266,
+    'latitude': 59.997354
+  },
+  {
+    'gym_id': '1d1f9d8021cc4af1a91d3eb7e9e4e585.16',
+    'longitude': 30.295104,
+    'latitude': 60.013218
+  },
+  {
+    'gym_id': '14763fbd0e64499e8897078e4839369f.16',
+    'longitude': 30.325897,
+    'latitude': 60.009493
+  },
+  {
+    'gym_id': '094c01e02b5b46c1aad92adad1828eb9.16',
+    'longitude': 30.297463,
+    'latitude': 60.015456
+  },
+  {
+    'gym_id': '13fdd248b41448cd9869d261876e351c.16',
+    'longitude': 30.324277,
+    'latitude': 60.012948
+  },
+  {
+    'gym_id': 'f60de52407854feabf305fbd86e27c86.16',
+    'longitude': 30.298906,
+    'latitude': 60.026025
+  },
+  {
+    'gym_id': '2954e7bdef5d4a4e9d2218718b1068c4.16',
+    'longitude': 30.317998,
+    'latitude': 60.021355
+  },
+  {
+    'gym_id': '6e7c2473483c4aeb91ce7bc07376b585.16',
+    'longitude': 30.314518,
+    'latitude': 60.016544
+  },
+  {
+    'gym_id': '4d21dd720944471babb71c8431ba17e4.16',
+    'longitude': 30.30822,
+    'latitude': 60.023375
+  },
+  {
+    'gym_id': '1ffef37687be4b1ca02cab0550866314.16',
+    'longitude': 30.309899,
+    'latitude': 60.017337
+  },
+  {
+    'gym_id': '4c070a9256d64b7a9085b4327bbe4dd1.11',
+    'longitude': 30.298703,
+    'latitude': 60.03249
+  },
+  {
+    'gym_id': '4d83bc6088be46fa93063bae711af7c1.16',
+    'longitude': 30.313042,
+    'latitude': 60.033336
+  },
+  {
+    'gym_id': 'bc5de75029ca499bb338e12664b849ba.12',
+    'longitude': 30.324189,
+    'latitude': 60.037248
+  },
+  {
+    'gym_id': '2e1e538927a94d50856f1b068d4a2f48.16',
+    'longitude': 30.407332,
+    'latitude': 60.024236
+  },
+  {
+    'gym_id': '52a4ec9cbd1c4673bdedb9d79ab9982e.16',
+    'longitude': 30.371958,
+    'latitude': 60.044243
+  },
+  {
+    'gym_id': 'deed5709eb65413d83d3329f86bec06d.16',
+    'longitude': 30.371676,
+    'latitude': 60.051348
+  },
+  {
+    'gym_id': 'e7b2ba5c943346e39bde59b80e419da5.16',
+    'longitude': 30.39044,
+    'latitude': 60.049812
+  },
+  {
+    'gym_id': '0871523a1de64270a0500a3988799847.16',
+    'longitude': 30.382261,
+    'latitude': 60.046419
+  },
+  {
+    'gym_id': '8fa4a9940d1248dfb367d4cfccb96b7f.16',
+    'longitude': 30.403186,
+    'latitude': 60.019524
+  },
+  {
+    'gym_id': 'eb18ce1327bc4676bcd5fc7dd5d29d71.16',
+    'longitude': 30.393954,
+    'latitude': 60.021958
+  },
+  {
+    'gym_id': '7318fe78bcad4340a9f93eadb5f75364.16',
+    'longitude': 30.397079,
+    'latitude': 60.031448
+  },
+  {
+    'gym_id': 'c4f7bcbc46bc4dd7bdc016f326afaac7.16',
+    'longitude': 30.444001,
+    'latitude': 60.050853
+  },
+  {
+    'gym_id': 'f1ee473074044053a57b9b8f1302d3ea.16',
+    'longitude': 30.413305,
+    'latitude': 60.023225
+  },
+  {
+    'gym_id': '65032199fdf7406d8685fc80a4741528.16',
+    'longitude': 30.392128,
+    'latitude': 60.029945
+  },
+  {
+    'gym_id': '61dc08d9cc7c4ac89a22c080094645a4.16',
+    'longitude': 30.377534,
+    'latitude': 60.026025
+  },
+  {
+    'gym_id': '1681b7a7e1b64f44b2fe75e89f4836de.16',
+    'longitude': 30.378162,
+    'latitude': 60.029588
+  },
+  {
+    'gym_id': '5e8754f606ef4cc18df8589dab3bafc8.16',
+    'longitude': 30.450772,
+    'latitude': 60.045584
+  },
+  {
+    'gym_id': '7e81baa8c7f741c79321f1c4764ecdaf.16',
+    'longitude': 30.455485,
+    'latitude': 60.047359
+  },
+  {
+    'gym_id': '0a30bdb63d584f94b2d9050997a875df.16',
+    'longitude': 30.429673,
+    'latitude': 60.01328
+  },
+  {
+    'gym_id': '96fc8c9270f04b32bfd808ded52f2e92.16',
+    'longitude': 30.40959,
+    'latitude': 60.020692
+  },
+  {
+    'gym_id': 'c3ac624d80354b92b62fee5bbc31a48c.16',
+    'longitude': 30.418241,
+    'latitude': 60.01553
+  },
+  {
+    'gym_id': '9d06a26c46b945e0b9e20cff5c4f4d58.16',
+    'longitude': 30.379215,
+    'latitude': 60.020192
+  },
+  {
+    'gym_id': '2a9ace5bc2094f209b076482b485d782.16',
+    'longitude': 30.373602,
+    'latitude': 60.041165
+  },
+  {
+    'gym_id': 'c5d489b4c7c74f3b96a11ef8ea920015.16',
+    'longitude': 30.390349,
+    'latitude': 60.053901
+  },
+  {
+    'gym_id': '4906dcb20e0646c4a60d1c5d984c29fb.16',
+    'longitude': 30.396968,
+    'latitude': 60.067306
+  },
+  {
+    'gym_id': '853e17e1fbc740a38f653f6db8f845b2.16',
+    'longitude': 30.475455,
+    'latitude': 60.046583
+  },
+  {
+    'gym_id': 'c78baf92a6664caf8ea0e103548c61fc.16',
+    'longitude': 30.395111,
+    'latitude': 60.018532
+  },
+  {
+    'gym_id': 'b0ce048af20244d6b0e3194e92f8d32b.16',
+    'longitude': 30.414361,
+    'latitude': 60.00958
+  },
+  {
+    'gym_id': 'f9011cf51f0846c89836fcdc5631b1ca.16',
+    'longitude': 30.366226,
+    'latitude': 60.033551
+  },
+  {
+    'gym_id': '8721a466da8c4fa4973b844b98df5fbd.16',
+    'longitude': 30.36314,
+    'latitude': 60.034722
+  },
+  {
+    'gym_id': 'ece50e78e5214f0b821fe73ba6da1cb1.11',
+    'longitude': 30.401017,
+    'latitude': 60.017252
+  },
+  {
+    'gym_id': '2e51323a98594d78acc43124224bc327.16',
+    'longitude': 30.388269,
+    'latitude': 60.009131
+  },
+  {
+    'gym_id': '7ffa61acc91e43318aed590fa51b01d8.16',
+    'longitude': 30.372887,
+    'latitude': 60.014723
+  },
+  {
+    'gym_id': '87f77cb5e5134bab927ffd1089a7dd6b.11',
+    'longitude': 30.368446,
+    'latitude': 60.020254
+  },
+  {
+    'gym_id': '2f2daa1a059f4cd88baa940eaf5e6814.16',
+    'longitude': 30.363362,
+    'latitude': 60.054066
+  },
+  {
+    'gym_id': '390deec84db4499ea6accb61854c7e76.16',
+    'longitude': 30.391577,
+    'latitude': 60.067479
+  },
+  {
+    'gym_id': 'e9ba7151715e4a15921a6aaa58675674.16',
+    'longitude': 30.466918,
+    'latitude': 60.05741
+  },
+  {
+    'gym_id': '2af277d94be74dc0b1fe9ef31fae9c64.16',
+    'longitude': 30.474688,
+    'latitude': 60.054649
+  },
+  {
+    'gym_id': '589d0975421c4b439e7176c90c1c7972.16',
+    'longitude': 30.480665,
+    'latitude': 60.057891
+  },
+  {
+    'gym_id': '5084d6373b4347cc8df0433e8f8ce62c.16',
+    'longitude': 30.416238,
+    'latitude': 60.007548
+  },
+  {
+    'gym_id': '24955a970c654cac9f54045c9104c679.11',
+    'longitude': 30.406871,
+    'latitude': 60.010307
+  },
+  {
+    'gym_id': 'a0020eab0b1a4a7a99697b337fa11f43.11',
+    'longitude': 30.398531,
+    'latitude': 60.00911
+  },
+  {
+    'gym_id': '0e2a732d88a245d8ae56bac15559f68a.16',
+    'longitude': 30.379019,
+    'latitude': 60.020351
+  },
+  {
+    'gym_id': '09e45650dbfa4ce59ab93dc35a869175.16',
+    'longitude': 30.351307,
+    'latitude': 60.037339
+  },
+  {
+    'gym_id': '04859f6f01f74015907f3897d310254f.16',
+    'longitude': 30.352101,
+    'latitude': 60.03806
+  },
+  {
+    'gym_id': '55afc209cc0047af86e6660835c3f983.16',
+    'longitude': 30.35435,
+    'latitude': 60.050998
+  },
+  {
+    'gym_id': '918606b74eaa4eb3bb96d2df11ee9da9.16',
+    'longitude': 30.394768,
+    'latitude': 60.074055
+  },
+  {
+    'gym_id': 'b3e1f8e01a1b4dbc9be501c427f920aa.16',
+    'longitude': 30.472529,
+    'latitude': 60.044453
+  },
+  {
+    'gym_id': 'e670d7a57d554916afd47ec4b254d7c9.16',
+    'longitude': 30.479535,
+    'latitude': 60.056071
+  },
+  {
+    'gym_id': '4c2dfa06dc504b9fbc09f98c9c163c8e.16',
+    'longitude': 30.454654,
+    'latitude': 60.004666
+  },
+  {
+    'gym_id': 'ad439da0cb62485789c9f6af88570e91.16',
+    'longitude': 30.427498,
+    'latitude': 60.008002
+  },
+  {
+    'gym_id': 'b5eff9fc4a3a461b9eb6b9adb920e0df.16',
+    'longitude': 30.428623,
+    'latitude': 60.000858
+  },
+  {
+    'gym_id': 'ee21ff31bd5e4cb2b26a898511af3c46.16',
+    'longitude': 30.430636,
+    'latitude': 60.000508
+  },
+  {
+    'gym_id': '8aacb1554b9f4ef4880e6c6db2260a77.16',
+    'longitude': 30.422612,
+    'latitude': 60.007889
+  },
+  {
+    'gym_id': '34ee459c73944ebfa1deacf96c1921a7.16',
+    'longitude': 30.440638,
+    'latitude': 60.004115
+  },
+  {
+    'gym_id': '38e715af69c74adc83995ff70f9f2638.16',
+    'longitude': 30.41529,
+    'latitude': 59.99521
+  },
+  {
+    'gym_id': '01c087e8228d471b93dddf4a982a78ee.11',
+    'longitude': 30.421041,
+    'latitude': 59.994845
+  },
+  {
+    'gym_id': '75794208ae0f41a79a615d60520bdda5.11',
+    'longitude': 30.398116,
+    'latitude': 60.003817
+  },
+  {
+    'gym_id': '785f68322c6049968dc880e8b3a93935.16',
+    'longitude': 30.379386,
+    'latitude': 60.000477
+  },
+  {
+    'gym_id': 'a78ea7c1b7d04a4ca1423b3393f6288f.16',
+    'longitude': 30.388774,
+    'latitude': 59.997177
+  },
+  {
+    'gym_id': 'fdef3e8284754d9fb4dba65c9eca97ce.16',
+    'longitude': 30.350262,
+    'latitude': 59.993805
+  },
+  {
+    'gym_id': '3f9d8d0423e244a68685672f5cd99959.16',
+    'longitude': 30.366287,
+    'latitude': 59.997177
+  },
+  {
+    'gym_id': '772571e7c0504e849169e60084788e82.16',
+    'longitude': 30.390543,
+    'latitude': 60.007087
+  },
+  {
+    'gym_id': '4e5f6e2e731b45d49c21f2c4853fe564.16',
+    'longitude': 30.3681,
+    'latitude': 60.004962
+  },
+  {
+    'gym_id': '2bed332c5e5d4a60bec762e095273bdd.11',
+    'longitude': 30.374305,
+    'latitude': 60.005845
+  },
+  {
+    'gym_id': '047138468c94465f8dd65fa97444c4e3.11',
+    'longitude': 30.372689,
+    'latitude': 60.011202
+  },
+  {
+    'gym_id': 'c51023dc092a493483a4fafcd8b27922.16',
+    'longitude': 30.378254,
+    'latitude': 60.005609
+  },
+  {
+    'gym_id': '1bd57f51b011438f979a279105bf8171.12',
+    'longitude': 30.347429,
+    'latitude': 60.011482
+  },
+  {
+    'gym_id': '33b478cdd4a6463d9cf0ae87194b6118.16',
+    'longitude': 30.355797,
+    'latitude': 60.004822
+  },
+  {
+    'gym_id': 'fecb8ccdfc5943ab93847a58a91f7830.16',
+    'longitude': 30.369789,
+    'latitude': 60.024666
+  },
+  {
+    'gym_id': '93f4ef3b34844d8cbb9ae801ed9e615a.16',
+    'longitude': 30.352579,
+    'latitude': 60.015974
+  },
+  {
+    'gym_id': '725d4625f5a6408592e1cc8aace7155a.11',
+    'longitude': 30.367001,
+    'latitude': 60.011594
+  },
+  {
+    'gym_id': '5f789b1d6a864e3ea5865866182c8ff1.16',
+    'longitude': 30.332078,
+    'latitude': 60.019567
+  },
+  {
+    'gym_id': 'ba6a17f360b842189d79b1888bf4b30e.16',
+    'longitude': 30.344528,
+    'latitude': 60.017207
+  },
+  {
+    'gym_id': '773b87adc555467f8b0469fb9e719920.16',
+    'longitude': 30.329804,
+    'latitude': 60.025186
+  },
+  {
+    'gym_id': '75b8f46725f14b6296fcd9e4c8c5f9c4.16',
+    'longitude': 30.321163,
+    'latitude': 60.028103
+  },
+  {
+    'gym_id': '2dd76eaa380a463ebf088fb5fb2b9c6b.16',
+    'longitude': 30.32915,
+    'latitude': 60.035159
+  },
+  {
+    'gym_id': '5314577f4fe84433b497d9e50a34ac39.11',
+    'longitude': 30.330122,
+    'latitude': 60.030191
+  },
+  {
+    'gym_id': '8fe8a81162254fcf9371269f00f33d9a.16',
+    'longitude': 30.349222,
+    'latitude': 60.044018
+  },
+  {
+    'gym_id': 'e01ded6545ca435bbd97d46d8b766022.16',
+    'longitude': 30.328872,
+    'latitude': 60.038892
+  },
+  {
+    'gym_id': 'cb28fd428a96426b8eedb021f1b41bd9.16',
+    'longitude': 30.341134,
+    'latitude': 60.041478
+  },
+  {
+    'gym_id': '27bdd242d9a04433b54e6297d9035bfd.16',
+    'longitude': 30.343169,
+    'latitude': 60.035748
+  },
+  {
+    'gym_id': '4ed7e3026a15479a9c95dd69d7b1fd08.16',
+    'longitude': 30.318238,
+    'latitude': 60.043014
+  },
+  {
+    'gym_id': '4c9263f3ccd448b7b482536fb855e47d.11',
+    'longitude': 30.328659,
+    'latitude': 60.043194
+  },
+  {
+    'gym_id': '82d0aac842f44ddaab0f12b481704d33.16',
+    'longitude': 30.335062,
+    'latitude': 60.045928
+  },
+  {
+    'gym_id': '78f27f8648df4726a2a359faa63736f4.16',
+    'longitude': 30.317316,
+    'latitude': 60.046133
+  },
+  {
+    'gym_id': '3255dab2d377490ea59e0dd431286372.16',
+    'longitude': 30.334835,
+    'latitude': 60.053468
+  },
+  {
+    'gym_id': '9699857bf40a4473bcbabaa4abf70f54.16',
+    'longitude': 30.351695,
+    'latitude': 60.048612
+  },
+  {
+    'gym_id': '4e0145f76d614d0dbbb338288ad01781.16',
+    'longitude': 30.357764,
+    'latitude': 60.048641
+  },
+  {
+    'gym_id': '1c7960f7d6824437bfe93b2811e48f81.16',
+    'longitude': 30.355011,
+    'latitude': 60.04831
+  },
+  {
+    'gym_id': '733320f185b64c54a93cec380b361834.11',
+    'longitude': 30.332202,
+    'latitude': 60.054232
+  },
+  {
+    'gym_id': '7c72858d670a47aa8b300d92386c9625.16',
+    'longitude': 30.338159,
+    'latitude': 60.060179
+  },
+  {
+    'gym_id': 'bf72e472309d49b1971aac7f2c343e5f.16',
+    'longitude': 30.33627,
+    'latitude': 60.057702
+  },
+  {
+    'gym_id': 'b229ba4612a04b33b2b4910c4936f821.11',
+    'longitude': 30.344911,
+    'latitude': 60.055749
+  },
+  {
+    'gym_id': '579dd5fa5bbb45a3a69f6e25a43050fb.16',
+    'longitude': 30.36431,
+    'latitude': 60.077013
+  },
+  {
+    'gym_id': '4e2a941270554c988e9955c238c88b2c.16',
+    'longitude': 30.364908,
+    'latitude': 60.075965
+  },
+  {
+    'gym_id': 'ebb99671c8df4dba91334e8e0282e9a1.16',
+    'longitude': 30.408524,
+    'latitude': 60.029627
+  },
+  {
+    'gym_id': 'da8d69d09228442fb9108f768d3600e3.11',
+    'longitude': 30.405841,
+    'latitude': 60.031347
+  },
+  {
+    'gym_id': '41e44966087b4eaa8635248e1e7b7f05.16',
+    'longitude': 30.374218,
+    'latitude': 60.033101
+  },
+  {
+    'gym_id': '95189ef0d4404ad89d26c15f405295c5.11',
+    'longitude': 30.399567,
+    'latitude': 60.041793
+  },
+  {
+    'gym_id': '80c2b15e577c40baa88c2132b5df2d9c.16',
+    'longitude': 30.387484,
+    'latitude': 60.038377
+  },
+  {
+    'gym_id': '5da15b2df24b4aa2897c8ae56469db35.16',
+    'longitude': 30.396948,
+    'latitude': 60.038368
+  },
+  {
+    'gym_id': '2e07b44c25334d8684d74a5d1a6e1278.16',
+    'longitude': 30.387439,
+    'latitude': 60.041453
+  },
+  {
+    'gym_id': '439926e1280f403e9d71d05ccf048847.16',
+    'longitude': 30.396064,
+    'latitude': 60.046808
+  },
+  {
+    'gym_id': '1939d7a976664d4990b81abd22067a4f.16',
+    'longitude': 30.402373,
+    'latitude': 60.04658
+  },
+  {
+    'gym_id': '8c1dc927806240b797d20e3dafac3677.16',
+    'longitude': 30.413177,
+    'latitude': 60.043539
+  },
+  {
+    'gym_id': '1d16330c555d41029c7b21b751af9b78.16',
+    'longitude': 30.426397,
+    'latitude': 60.040229
+  },
+  {
+    'gym_id': 'f7e82798937d4a9dae2ab0d2f8604116.16',
+    'longitude': 30.414018,
+    'latitude': 60.039138
+  },
+  {
+    'gym_id': '0480dca280e84e61a3076fea7c03e748.11',
+    'longitude': 30.41845,
+    'latitude': 60.035235
+  },
+  {
+    'gym_id': 'b0063abf25984c3cbaedc0260152dee0.16',
+    'longitude': 30.424604,
+    'latitude': 60.026988
+  },
+  {
+    'gym_id': '61202ea8182d4566a6ef308336779f3d.11',
+    'longitude': 30.427398,
+    'latitude': 60.025028
+  },
+  {
+    'gym_id': '764961e323e44caa86349afa5022611a.16',
+    'longitude': 30.425165,
+    'latitude': 60.031818
+  },
+  {
+    'gym_id': 'd9a7b9a217f74f0fb8cff1ed1c3e199c.16',
+    'longitude': 30.447497,
+    'latitude': 60.044811
+  }
+];
+		var placemarks = [];
+		for (var i = 0; i < points.length; i++) {
+			var p = points[i];
+			placemarks.push(new ymaps.Placemark([p.latitude, p.longitude], { hintContent: p.gym_id }));
+		}
+
+	        myMap.geoObjects.add(myPlacemark);
+
         }
     </script>
 </head>
