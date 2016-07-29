@@ -19,6 +19,8 @@
                 center: [59.933,30.343],
                 zoom: 12
             }); 
+	    var objectManager = new ymaps.ObjectManager({
+	    });
 
 	    var points = 
 [
@@ -2283,14 +2285,18 @@
     'latitude': 60.044811
   }
 ];
-		var placemarks = [];
+
+		var features = [];
+
 		for (var i = 0; i < points.length; i++) {
 			var p = points[i];
-			placemarks.push(new ymaps.Placemark([p.latitude, p.longitude], { hintContent: p.gym_id }));
+			var feature = {type: 'Feature', id: i, geometry: { type: 'Point', coordinates: [p.latitude, p.longitude] }};
+			features.push(feature);
 		}
 
-	        myMap.geoObjects.add(myPlacemark);
-
+		var placemarks = { type: 'FeatureCollection', features: features };
+		objectManager.add(JSON.stringify(placemarks));  
+		myMap.geoObjects.add(objectManager);
         }
     </script>
 </head>
